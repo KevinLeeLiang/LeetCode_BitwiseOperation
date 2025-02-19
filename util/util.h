@@ -13,6 +13,7 @@
 
 #ifndef BITWISEOPERATION_UTIL_H
 #define BITWISEOPERATION_UTIL_H
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -186,6 +187,7 @@ inline ListNode *create_list(vector<int> list_vals) {
     }
     return head;
 }
+
 inline void print_list(ListNode *head) {
     ListNode *p = head;
     while (p != nullptr) {
@@ -204,4 +206,17 @@ inline void delete_list(ListNode *head) {
         delete tmp;
     }
 }
+
+template<typename T>
+void print_vector_vector(vector<vector<T>> &vecs) {
+    for (auto &vec : vecs) {
+        for (auto &item : vec) {
+            cout << item << " ";
+        }
+        cout << endl;
+    }
+    cout << endl;
+    cout << "__________" << endl;
+}
+
 #endif //BITWISEOPERATION_UTIL_H
