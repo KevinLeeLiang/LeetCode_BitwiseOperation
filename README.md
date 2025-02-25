@@ -13,3 +13,7 @@ LeetCode位运算算法题的解题仓库
 [78. 子集](https://leetcode.cn/problems/subsets/description/?envType=problem-list-v2&envId=bit-manipulation) : [L78_subsets](L78_subsets)
 
 [89. 格雷编码](https://leetcode.cn/problems/gray-code/description/?envType=problem-list-v2&envId=bit-manipulation) : [L89_grayCode](L89_grayCode)
+
+[90. 子集II](https://leetcode.cn/problems/subsets-ii/description/?envType=problem-list-v2&envId=bit-manipulation) : [L90_subsetsWithDup](L90_subsetsWithDup)
+
+[136. 只出现一次的数字](https://leetcode.cn/problems/single-number/description/?envType=problem-list-v2&envId=bit-manipulation) : [L136_singleNumber](L136_singleNumber)]

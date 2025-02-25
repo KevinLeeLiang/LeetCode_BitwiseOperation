@@ -18,6 +18,9 @@
 #include "L67_addBinary/L67_addBinary.h"
 #include "L78_subsets/L78_subsets.h"
 #include "L89_grayCode/L89_grayCode.h"
+#include "L90_subsetsWithDup/L90_subsetsWithDup.h"
+#include "L136_singleNumber/L136_singleNumber.h"
+
 using namespace std;
 class test_factory {
 
@@ -35,6 +38,14 @@ private:
         } else if (title == "L89") {
             std::shared_ptr<L89_grayCode> tmp= std::make_shared<L89_grayCode>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L90") {
+            std::shared_ptr<L90_subsetsWithDup> tmp= std::make_shared<L90_subsetsWithDup>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L136") {
+            std::shared_ptr<L136_singleNumber> tmp= std::make_shared<L136_singleNumber>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:

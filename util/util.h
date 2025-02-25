@@ -215,7 +215,6 @@ void print_vector_vector(vector<vector<T>> &vecs) {
         }
         cout << endl;
     }
-    cout << endl;
     cout << "__________" << endl;
 }
 
