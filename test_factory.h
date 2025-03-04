@@ -20,7 +20,8 @@
 #include "L89_grayCode/L89_grayCode.h"
 #include "L90_subsetsWithDup/L90_subsetsWithDup.h"
 #include "L136_singleNumber/L136_singleNumber.h"
-
+#include "L137_singleNumber/L137_singleNumber.h"
+#include "L187_findRepeatedDnaSequences/L187_findRepeatedDnaSequences.h"
 using namespace std;
 class test_factory {
 
@@ -43,6 +44,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         } else if (title == "L136") {
             std::shared_ptr<L136_singleNumber> tmp= std::make_shared<L136_singleNumber>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L137") {
+            std::shared_ptr<L137_singleNumber> tmp= std::make_shared<L137_singleNumber>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L187") {
+            std::shared_ptr<L187_findRepeatedDnaSequences> tmp= std::make_shared<L187_findRepeatedDnaSequences>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         } else {
             cout << "no solution" << endl;

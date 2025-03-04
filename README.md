@@ -17,3 +17,7 @@ LeetCode位运算算法题的解题仓库
 [90. 子集II](https://leetcode.cn/problems/subsets-ii/description/?envType=problem-list-v2&envId=bit-manipulation) : [L90_subsetsWithDup](L90_subsetsWithDup)
 
 [136. 只出现一次的数字](https://leetcode.cn/problems/single-number/description/?envType=problem-list-v2&envId=bit-manipulation) : [L136_singleNumber](L136_singleNumber)]
+
+[137. 只出现一次的数字 II](https://leetcode.cn/problems/single-number-ii/description/?envType=problem-list-v2&envId=bit-manipulation) : [L137_singleNumberII](L137_singleNumberII)
+
+[187. 重复的DNA序列](https://leetcode.cn/problems/repeated-dna-sequences/description/?envType=problem-list-v2&envId=bit-manipulation) : [L187_findRepeatedDnaSequences](L187_findRepeatedDnaSequences)
