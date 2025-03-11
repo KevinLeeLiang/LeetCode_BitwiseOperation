@@ -21,3 +21,7 @@ LeetCode位运算算法题的解题仓库
 [137. 只出现一次的数字 II](https://leetcode.cn/problems/single-number-ii/description/?envType=problem-list-v2&envId=bit-manipulation) : [L137_singleNumberII](L137_singleNumberII)
 
 [187. 重复的DNA序列](https://leetcode.cn/problems/repeated-dna-sequences/description/?envType=problem-list-v2&envId=bit-manipulation) : [L187_findRepeatedDnaSequences](L187_findRepeatedDnaSequences)
+
+[190. 颠倒二进制位](https://leetcode.cn/problems/reverse-bits/description/?envType=problem-list-v2&envId=bit-manipulation) : [L190_reverseBits](L190_reverseBits)
+
+[191. 位1的个数](https://leetcode.cn/problems/number-of-1-bits/description/?envType=problem-list-v2&envId=bit-manipulation) : [L191_hammingWeight](L191_hammingWeight)

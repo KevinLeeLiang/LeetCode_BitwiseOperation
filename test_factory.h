@@ -22,6 +22,9 @@
 #include "L136_singleNumber/L136_singleNumber.h"
 #include "L137_singleNumber/L137_singleNumber.h"
 #include "L187_findRepeatedDnaSequences/L187_findRepeatedDnaSequences.h"
+#include "L190_reverseBits/L190_reverseBits.h"
+#include "L191_hammingWeight/L191_hammingWeight.h"
+
 using namespace std;
 class test_factory {
 
@@ -51,8 +54,12 @@ private:
         } else if (title == "L187") {
             std::shared_ptr<L187_findRepeatedDnaSequences> tmp= std::make_shared<L187_findRepeatedDnaSequences>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L190") {
+            std::shared_ptr<L190_reverseBits> tmp= std::make_shared<L190_reverseBits>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L191") {
+            std::shared_ptr<L191_hammingWeight> tmp= std::make_shared<L191_hammingWeight>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         }
     }
 public:
