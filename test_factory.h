@@ -24,6 +24,8 @@
 #include "L187_findRepeatedDnaSequences/L187_findRepeatedDnaSequences.h"
 #include "L190_reverseBits/L190_reverseBits.h"
 #include "L191_hammingWeight/L191_hammingWeight.h"
+#include "L201_rangeBitwiseAnd/L201_rangeBitwiseAnd.h"
+#include "L222_countNodes/L222_countNodes.h"
 
 using namespace std;
 class test_factory {
@@ -59,6 +61,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         } else if (title == "L191") {
             std::shared_ptr<L191_hammingWeight> tmp= std::make_shared<L191_hammingWeight>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L201") {
+            std::shared_ptr<L201_rangeBitwiseAnd> tmp= std::make_shared<L201_rangeBitwiseAnd>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L222") {
+            std::shared_ptr<L222_countNodes> tmp= std::make_shared<L222_countNodes>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         }
     }

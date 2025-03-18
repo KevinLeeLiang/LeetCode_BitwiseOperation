@@ -25,3 +25,8 @@ LeetCode位运算算法题的解题仓库
 [190. 颠倒二进制位](https://leetcode.cn/problems/reverse-bits/description/?envType=problem-list-v2&envId=bit-manipulation) : [L190_reverseBits](L190_reverseBits)
 
 [191. 位1的个数](https://leetcode.cn/problems/number-of-1-bits/description/?envType=problem-list-v2&envId=bit-manipulation) : [L191_hammingWeight](L191_hammingWeight)
+
+[201. 数字范围按位与](https://leetcode.cn/problems/bitwise-and-of-numbers-range/description/?envType=problem-list-v2&envId=bit-manipulation) : [L201_rangeBitwiseAnd](L201_rangeBitwiseAnd)
+
+[222. 完全二叉树的节点个数](https://leetcode.cn/problems/count-complete-tree-nodes/description/?envType=problem-list-v2&envId=bit-manipulation) : [L222_countNodes](L222_countNodes)
+
