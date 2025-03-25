@@ -30,3 +30,6 @@ LeetCode位运算算法题的解题仓库
 
 [222. 完全二叉树的节点个数](https://leetcode.cn/problems/count-complete-tree-nodes/description/?envType=problem-list-v2&envId=bit-manipulation) : [L222_countNodes](L222_countNodes)
 
+[231. 2的幂](https://leetcode.cn/problems/power-of-two/description/?envType=problem-list-v2&envId=bit-manipulation) : [L231_isPowerOfTwo](L231_isPowerOfTwo)
+
+[260. 只出现一次的数字 III](https://leetcode.cn/problems/single-number-iii/description/?envType=problem-list-v2&envId=bit-manipulation) : [L260_singleNumber](L260_singleNumber)

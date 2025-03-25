@@ -26,6 +26,8 @@
 #include "L191_hammingWeight/L191_hammingWeight.h"
 #include "L201_rangeBitwiseAnd/L201_rangeBitwiseAnd.h"
 #include "L222_countNodes/L222_countNodes.h"
+#include "L231_isPowerOfTwo/L231_isPowerOfTwo.h"
+#include "L260_singleNumber/L260_signleNumber.h"
 
 using namespace std;
 class test_factory {
@@ -67,6 +69,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         } else if (title == "L222") {
             std::shared_ptr<L222_countNodes> tmp= std::make_shared<L222_countNodes>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L231") {
+            std::shared_ptr<L231_isPowerOfTwo> tmp= std::make_shared<L231_isPowerOfTwo>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L260") {
+            std::shared_ptr<L260_signleNumber> tmp= std::make_shared<L260_signleNumber>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         }
     }
