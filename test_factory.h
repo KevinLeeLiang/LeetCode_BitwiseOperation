@@ -28,6 +28,8 @@
 #include "L222_countNodes/L222_countNodes.h"
 #include "L231_isPowerOfTwo/L231_isPowerOfTwo.h"
 #include "L260_singleNumber/L260_signleNumber.h"
+#include "L268_missingNumber/L268_missingNumber.h"
+#include "L287_findDuplicate/L287_findDuplicate.h"
 
 using namespace std;
 class test_factory {
@@ -75,6 +77,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         } else if (title == "L260") {
             std::shared_ptr<L260_signleNumber> tmp= std::make_shared<L260_signleNumber>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L268") {
+            std::shared_ptr<L268_missingNumber> tmp= std::make_shared<L268_missingNumber>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L287") {
+            std::shared_ptr<L287_findDuplicate> tmp= std::make_shared<L287_findDuplicate>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         }
     }

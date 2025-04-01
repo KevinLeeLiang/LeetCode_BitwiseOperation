@@ -33,3 +33,7 @@ LeetCode位运算算法题的解题仓库
 [231. 2的幂](https://leetcode.cn/problems/power-of-two/description/?envType=problem-list-v2&envId=bit-manipulation) : [L231_isPowerOfTwo](L231_isPowerOfTwo)
 
 [260. 只出现一次的数字 III](https://leetcode.cn/problems/single-number-iii/description/?envType=problem-list-v2&envId=bit-manipulation) : [L260_singleNumber](L260_singleNumber)
+
+[268. 丢失的数字](https://leetcode.cn/problems/missing-number/description/?envType=problem-list-v2&envId=bit-manipulation) : [L268_missingNumber](L268_missingNumber)
+
+[287. 寻找重复数](https://leetcode.cn/problems/find-the-duplicate-number/description/?envType=problem-list-v2&envId=bit-manipulation) : [L287_findDuplicate](L287_findDuplicate)
