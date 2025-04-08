@@ -30,6 +30,9 @@
 #include "L260_singleNumber/L260_signleNumber.h"
 #include "L268_missingNumber/L268_missingNumber.h"
 #include "L287_findDuplicate/L287_findDuplicate.h"
+#include "L318_maxProduct/L318_maxProduct.h"
+#include "L318_maxProduct/L318_maxProduct.h"
+#include "L338_countBits/L338_countBits.h"
 
 using namespace std;
 class test_factory {
@@ -84,6 +87,17 @@ private:
         } else if (title == "L287") {
             std::shared_ptr<L287_findDuplicate> tmp= std::make_shared<L287_findDuplicate>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L318") {
+            std::shared_ptr<L318_maxProduct> tmp= std::make_shared<L318_maxProduct>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L318") {
+            std::shared_ptr<L318_maxProduct> tmp= std::make_shared<L318_maxProduct>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L338") {
+            std::shared_ptr<L338_countBits> tmp= std::make_shared<L338_countBits>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:

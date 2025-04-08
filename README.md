@@ -37,3 +37,7 @@ LeetCode位运算算法题的解题仓库
 [268. 丢失的数字](https://leetcode.cn/problems/missing-number/description/?envType=problem-list-v2&envId=bit-manipulation) : [L268_missingNumber](L268_missingNumber)
 
 [287. 寻找重复数](https://leetcode.cn/problems/find-the-duplicate-number/description/?envType=problem-list-v2&envId=bit-manipulation) : [L287_findDuplicate](L287_findDuplicate)
+
+[318. 最大单词长度乘积](https://leetcode.cn/problems/maximum-product-of-word-lengths/description/?envType=problem-list-v2&envId=bit-manipulation) : [L318_maxProduct](L318_maxProduct)
+
+[338. 比特位计数](https://leetcode.cn/problems/counting-bits/description/?envType=problem-list-v2&envId=bit-manipulation) : [L338_countBits](L338_countBits)
