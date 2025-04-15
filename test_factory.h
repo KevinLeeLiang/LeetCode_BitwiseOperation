@@ -33,6 +33,8 @@
 #include "L318_maxProduct/L318_maxProduct.h"
 #include "L318_maxProduct/L318_maxProduct.h"
 #include "L338_countBits/L338_countBits.h"
+#include "L342_isPowerOfFour/L342_isPowerOfFour.h"
+#include "L371_getSum/L371_getSum.h"
 
 using namespace std;
 class test_factory {
@@ -96,8 +98,12 @@ private:
         } else if (title == "L338") {
             std::shared_ptr<L338_countBits> tmp= std::make_shared<L338_countBits>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L342") {
+            std::shared_ptr<L342_isPowerOfFour> tmp= std::make_shared<L342_isPowerOfFour>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L371") {
+            std::shared_ptr<L371_getSum> tmp= std::make_shared<L371_getSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         }
     }
 public:

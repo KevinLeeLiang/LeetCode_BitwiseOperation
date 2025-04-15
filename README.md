@@ -41,3 +41,7 @@ LeetCode位运算算法题的解题仓库
 [318. 最大单词长度乘积](https://leetcode.cn/problems/maximum-product-of-word-lengths/description/?envType=problem-list-v2&envId=bit-manipulation) : [L318_maxProduct](L318_maxProduct)
 
 [338. 比特位计数](https://leetcode.cn/problems/counting-bits/description/?envType=problem-list-v2&envId=bit-manipulation) : [L338_countBits](L338_countBits)
+
+[342. 4的幂](https://leetcode.cn/problems/power-of-four/description/?envType=problem-list-v2&envId=bit-manipulation) : [L342_isPowerOfFour](L342_isPowerOfFour)
+
+[371. 两整数之和](https://leetcode.cn/problems/sum-of-two-integers/description/?envType=problem-list-v2&envId=bit-manipulation) : [L371_getSum](L371_getSum)
