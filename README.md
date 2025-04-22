@@ -45,3 +45,7 @@ LeetCode位运算算法题的解题仓库
 [342. 4的幂](https://leetcode.cn/problems/power-of-four/description/?envType=problem-list-v2&envId=bit-manipulation) : [L342_isPowerOfFour](L342_isPowerOfFour)
 
 [371. 两整数之和](https://leetcode.cn/problems/sum-of-two-integers/description/?envType=problem-list-v2&envId=bit-manipulation) : [L371_getSum](L371_getSum)
+
+[389. 找不同](https://leetcode.cn/problems/find-the-difference/description/?envType=problem-list-v2&envId=bit-manipulation) : [L389_findTheDifference](L389_findTheDifference)
+
+[393.  utf-8 编码验证](https://leetcode.cn/problems/valid-utf-8/description/?envType=problem-list-v2&envId=bit-manipulation) : [L393_validUtf8](L393_validUtf8)

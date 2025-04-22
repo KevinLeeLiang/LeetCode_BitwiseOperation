@@ -35,6 +35,8 @@
 #include "L338_countBits/L338_countBits.h"
 #include "L342_isPowerOfFour/L342_isPowerOfFour.h"
 #include "L371_getSum/L371_getSum.h"
+#include "L389_findTheDifference/L389_findTheDifference.h"
+#include "L393_validUtf8/L393_validUtf8.h"
 
 using namespace std;
 class test_factory {
@@ -104,6 +106,14 @@ private:
         } else if (title == "L371") {
             std::shared_ptr<L371_getSum> tmp= std::make_shared<L371_getSum>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L389") {
+            std::shared_ptr<L389_findTheDifference> tmp= std::make_shared<L389_findTheDifference>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L393") {
+            std::shared_ptr<L393_validUtf8> tmp= std::make_shared<L393_validUtf8>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:
