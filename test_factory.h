@@ -37,6 +37,8 @@
 #include "L371_getSum/L371_getSum.h"
 #include "L389_findTheDifference/L389_findTheDifference.h"
 #include "L393_validUtf8/L393_validUtf8.h"
+#include "L397_integerReplacement/L397_integerReplacement.h"
+#include "L401_readBinaryWatch/L401_readBinaryWatch.h"
 
 using namespace std;
 class test_factory {
@@ -112,8 +114,12 @@ private:
         } else if (title == "L393") {
             std::shared_ptr<L393_validUtf8> tmp= std::make_shared<L393_validUtf8>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L397") {
+            std::shared_ptr<L397_integerReplacement> tmp= std::make_shared<L397_integerReplacement>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L401") {
+            std::shared_ptr<L401_readBinaryWatch> tmp= std::make_shared<L401_readBinaryWatch>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         }
     }
 public:
