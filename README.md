@@ -49,3 +49,7 @@ LeetCode位运算算法题的解题仓库
 [389. 找不同](https://leetcode.cn/problems/find-the-difference/description/?envType=problem-list-v2&envId=bit-manipulation) : [L389_findTheDifference](L389_findTheDifference)
 
 [393.  utf-8 编码验证](https://leetcode.cn/problems/valid-utf-8/description/?envType=problem-list-v2&envId=bit-manipulation) : [L393_validUtf8](L393_validUtf8)
+
+[405. 数字转换为十六进制数](https://leetcode.cn/problems/convert-a-number-to-hexadecimal/description/?envType=problem-list-v2&envId=bit-manipulation) : [L405_toHex](L405_toHex)
+
+[421. 数组中两个数的最大异或值](https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array/description/?envType=problem-list-v2&envId=bit-manipulation) : [L421_findMaximumXOR](L421_findMaximumXOR)

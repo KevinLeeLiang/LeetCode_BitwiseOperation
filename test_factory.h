@@ -39,6 +39,8 @@
 #include "L393_validUtf8/L393_validUtf8.h"
 #include "L397_integerReplacement/L397_integerReplacement.h"
 #include "L401_readBinaryWatch/L401_readBinaryWatch.h"
+#include "L405_toHex/L405_toHex.h"
+#include "L421_findMaximumXOR/L421_findMaximumXOR.h"
 
 using namespace std;
 class test_factory {
@@ -119,6 +121,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         } else if (title == "L401") {
             std::shared_ptr<L401_readBinaryWatch> tmp= std::make_shared<L401_readBinaryWatch>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L405") {
+            std::shared_ptr<L405_toHex> tmp= std::make_shared<L405_toHex>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L421") {
+            std::shared_ptr<L421_findMaximumXOR> tmp= std::make_shared<L421_findMaximumXOR>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         }
     }
