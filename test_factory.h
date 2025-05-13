@@ -41,6 +41,8 @@
 #include "L401_readBinaryWatch/L401_readBinaryWatch.h"
 #include "L405_toHex/L405_toHex.h"
 #include "L421_findMaximumXOR/L421_findMaximumXOR.h"
+#include "L461_hammingDistance/L461_hammingDistance.h"
+#include "L464_canIWin/L464_canIWin.h"
 
 using namespace std;
 class test_factory {
@@ -127,6 +129,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         } else if (title == "L421") {
             std::shared_ptr<L421_findMaximumXOR> tmp= std::make_shared<L421_findMaximumXOR>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L461") {
+            std::shared_ptr<L461_hammingDistance> tmp= std::make_shared<L461_hammingDistance>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L464") {
+            std::shared_ptr<L464_canIWin> tmp= std::make_shared<L464_canIWin>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         }
     }
