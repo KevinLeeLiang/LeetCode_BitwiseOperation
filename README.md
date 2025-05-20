@@ -53,3 +53,7 @@ LeetCode位运算算法题的解题仓库
 [405. 数字转换为十六进制数](https://leetcode.cn/problems/convert-a-number-to-hexadecimal/description/?envType=problem-list-v2&envId=bit-manipulation) : [L405_toHex](L405_toHex)
 
 [421. 数组中两个数的最大异或值](https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array/description/?envType=problem-list-v2&envId=bit-manipulation) : [L421_findMaximumXOR](L421_findMaximumXOR)
+
+[473. 火柴拼正方型](https://leetcode.cn/problems/matchsticks-to-square/description/?envType=problem-list-v2&envId=bit-manipulation) : [L473_matchsticksToSquare](L473_matchsticksToSquare)
+
+[476. 数字的补数](https://leetcode.cn/problems/number-complement/description/?envType=problem-list-v2&envId=bit-manipulation) : [L476_findComplement](L476_findComplement)
