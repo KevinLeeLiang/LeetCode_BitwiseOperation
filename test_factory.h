@@ -45,6 +45,8 @@
 #include "L464_canIWin/L464_canIWin.h"
 #include "L473_makesquare/L473_makesquare.h"
 #include "L476_findComplement/L476_findComplement.h"
+#include "L477_totalHammingDistance/L477_totalHammingDistance.h"
+#include "L491_findSubsequences/L491_findSubsequences.h"
 
 using namespace std;
 class test_factory {
@@ -143,6 +145,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         } else if (title == "L476") {
             std::shared_ptr<L476_findComplement> tmp= std::make_shared<L476_findComplement>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L477") {
+            std::shared_ptr<L477_totalHammingDistance> tmp= std::make_shared<L477_totalHammingDistance>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L491") {
+            std::shared_ptr<L491_findSubsequences> tmp= std::make_shared<L491_findSubsequences>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         }
     }

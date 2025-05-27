@@ -57,3 +57,7 @@ LeetCode位运算算法题的解题仓库
 [473. 火柴拼正方型](https://leetcode.cn/problems/matchsticks-to-square/description/?envType=problem-list-v2&envId=bit-manipulation) : [L473_matchsticksToSquare](L473_matchsticksToSquare)
 
 [476. 数字的补数](https://leetcode.cn/problems/number-complement/description/?envType=problem-list-v2&envId=bit-manipulation) : [L476_findComplement](L476_findComplement)
+
+[477. 汉明距离总和](https://leetcode.cn/problems/total-hamming-distance/description/?envType=problem-list-v2&envId=bit-manipulation) : [L477_totalHammingDistance](L477_totalHammingDistance)
+
+[491. 递增子序列](https://leetcode.cn/problems/increasing-subsequences/description/?envType=problem-list-v2&envId=bit-manipulation) : [L491_findSubsequences](L491_findSubsequences)
