@@ -61,3 +61,7 @@ LeetCode位运算算法题的解题仓库
 [477. 汉明距离总和](https://leetcode.cn/problems/total-hamming-distance/description/?envType=problem-list-v2&envId=bit-manipulation) : [L477_totalHammingDistance](L477_totalHammingDistance)
 
 [491. 递增子序列](https://leetcode.cn/problems/increasing-subsequences/description/?envType=problem-list-v2&envId=bit-manipulation) : [L491_findSubsequences](L491_findSubsequences)
+
+[526. 优美的排列](https://leetcode.cn/problems/beautiful-arrangement/description/?envType=problem-list-v2&envId=bit-manipulation) : [L526_countArrangement](L526_countArrangement)
+
+[638. 大礼包](https://leetcode.cn/problems/shopping-offers/description/?envType=problem-list-v2&envId=bit-manipulation) : [L638_shoppingOffers](L638_shoppingOffers)
