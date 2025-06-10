@@ -65,3 +65,7 @@ LeetCode位运算算法题的解题仓库
 [526. 优美的排列](https://leetcode.cn/problems/beautiful-arrangement/description/?envType=problem-list-v2&envId=bit-manipulation) : [L526_countArrangement](L526_countArrangement)
 
 [638. 大礼包](https://leetcode.cn/problems/shopping-offers/description/?envType=problem-list-v2&envId=bit-manipulation) : [L638_shoppingOffers](L638_shoppingOffers)
+
+[645. 错误的集合](https://leetcode.cn/problems/set-mismatch/description/?envType=problem-list-v2&envId=bit-manipulation) : [L645_findErrorNums](L645_findErrorNums)
+
+[672. 灯泡开关 II](https://leetcode.cn/problems/bulb-switcher-ii/description/?envType=problem-list-v2&envId=bit-manipulation) : [L672_flipLights](L672_flipLights)

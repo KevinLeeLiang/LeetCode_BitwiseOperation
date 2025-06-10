@@ -49,6 +49,8 @@
 #include "L491_findSubsequences/L491_findSubsequences.h"
 #include "L526_countArrangement/L526_countArrangement.h"
 #include "L638_shoppingOffers/L638_shoppingOffers.h"
+#include "L645_findErrorNums/L645_findErrorNums.h"
+#include "L672_flipLights/L672_flipLights.h"
 
 using namespace std;
 class test_factory {
@@ -159,6 +161,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         } else if (title == "L638") {
             std::shared_ptr<L638_shoppingOffers> tmp= std::make_shared<L638_shoppingOffers>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L645") {
+            std::shared_ptr<L645_findErrorNums> tmp= std::make_shared<L645_findErrorNums>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L672") {
+            std::shared_ptr<L672_flipLights> tmp= std::make_shared<L672_flipLights>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         }
     }
