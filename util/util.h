@@ -34,6 +34,7 @@
 #include <cstdarg>
 #include <numeric>
 #include <map>
+#include <functional>
 
 using namespace std;
 

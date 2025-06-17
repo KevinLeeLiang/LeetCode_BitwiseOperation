@@ -69,3 +69,7 @@ LeetCode位运算算法题的解题仓库
 [645. 错误的集合](https://leetcode.cn/problems/set-mismatch/description/?envType=problem-list-v2&envId=bit-manipulation) : [L645_findErrorNums](L645_findErrorNums)
 
 [672. 灯泡开关 II](https://leetcode.cn/problems/bulb-switcher-ii/description/?envType=problem-list-v2&envId=bit-manipulation) : [L672_flipLights](L672_flipLights)
+
+[691. 贴纸拼词](https://leetcode.cn/problems/stickers-to-spell-word/description/?envType=problem-list-v2&envId=bit-manipulation) : [L691_minStickers](L691_minStickers)
+
+[693. 交替位二进制数](https://leetcode.cn/problems/binary-number-with-alternating-bits/description/?envType=problem-list-v2&envId=bit-manipulation) : [L693_hasAlternatingBits](L693_hasAlternatingBits)

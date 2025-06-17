@@ -51,6 +51,8 @@
 #include "L638_shoppingOffers/L638_shoppingOffers.h"
 #include "L645_findErrorNums/L645_findErrorNums.h"
 #include "L672_flipLights/L672_flipLights.h"
+#include "L691_minStickers/L691_minStickers.h"
+#include "L693_hasAlternatingBits/L693_hasAlternatingBits.h"
 
 using namespace std;
 class test_factory {
@@ -167,6 +169,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         } else if (title == "L672") {
             std::shared_ptr<L672_flipLights> tmp= std::make_shared<L672_flipLights>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L691") {
+            std::shared_ptr<L691_minStickers> tmp= std::make_shared<L691_minStickers>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L693") {
+            std::shared_ptr<L693_hasAlternatingBits> tmp= std::make_shared<L693_hasAlternatingBits>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         }
     }
