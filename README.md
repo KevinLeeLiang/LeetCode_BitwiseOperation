@@ -73,3 +73,7 @@ LeetCode位运算算法题的解题仓库
 [691. 贴纸拼词](https://leetcode.cn/problems/stickers-to-spell-word/description/?envType=problem-list-v2&envId=bit-manipulation) : [L691_minStickers](L691_minStickers)
 
 [693. 交替位二进制数](https://leetcode.cn/problems/binary-number-with-alternating-bits/description/?envType=problem-list-v2&envId=bit-manipulation) : [L693_hasAlternatingBits](L693_hasAlternatingBits)
+
+[698. 划分为k个相等的子集](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/description/?envType=problem-list-v2&envId=bit-manipulation) : [L698_canPartitionKSubsets](L698_canPartitionKSubsets)
+
+[756. 金字塔转换矩阵](https://leetcode.cn/problems/pyramid-transition-matrix/description/?envType=problem-list-v2&envId=bit-manipulation) : [L756_pyramidTransition](L756_pyramidTransition)

@@ -53,6 +53,7 @@
 #include "L672_flipLights/L672_flipLights.h"
 #include "L691_minStickers/L691_minStickers.h"
 #include "L693_hasAlternatingBits/L693_hasAlternatingBits.h"
+#include "L756_pyramidTransition/L756_pyramidTransition.h"
 
 using namespace std;
 class test_factory {
@@ -175,6 +176,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         } else if (title == "L693") {
             std::shared_ptr<L693_hasAlternatingBits> tmp= std::make_shared<L693_hasAlternatingBits>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L756") {
+            std::shared_ptr<L756_pyramidTransition> tmp= std::make_shared<L756_pyramidTransition>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         }
     }
