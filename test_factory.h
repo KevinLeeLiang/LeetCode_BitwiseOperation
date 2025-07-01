@@ -54,6 +54,8 @@
 #include "L691_minStickers/L691_minStickers.h"
 #include "L693_hasAlternatingBits/L693_hasAlternatingBits.h"
 #include "L756_pyramidTransition/L756_pyramidTransition.h"
+#include "L762_countPrimeSetBits/L762_countPrimeSetBits.h"
+#include "L779_kthGrammar/L779_kthGrammar.h"
 
 using namespace std;
 class test_factory {
@@ -179,6 +181,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         } else if (title == "L756") {
             std::shared_ptr<L756_pyramidTransition> tmp= std::make_shared<L756_pyramidTransition>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L762") {
+            std::shared_ptr<L762_countPrimeSetBits> tmp= std::make_shared<L762_countPrimeSetBits>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L779") {
+            std::shared_ptr<L779_kthGrammar> tmp= std::make_shared<L779_kthGrammar>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         }
     }

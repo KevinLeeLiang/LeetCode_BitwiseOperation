@@ -77,3 +77,7 @@ LeetCode位运算算法题的解题仓库
 [698. 划分为k个相等的子集](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/description/?envType=problem-list-v2&envId=bit-manipulation) : [L698_canPartitionKSubsets](L698_canPartitionKSubsets)
 
 [756. 金字塔转换矩阵](https://leetcode.cn/problems/pyramid-transition-matrix/description/?envType=problem-list-v2&envId=bit-manipulation) : [L756_pyramidTransition](L756_pyramidTransition)
+
+[762. 二进制表示中质数个计算置位](https://leetcode.cn/problems/prime-number-of-set-bits-in-binary-representation/description/?envType=problem-list-v2&envId=bit-manipulation) : [L762_countPrimeSetBits](L762_countPrimeSetBits)
+
+[779. 第K个语法符号](https://leetcode.cn/problems/k-th-symbol-in-grammar/description/?envType=problem-list-v2&envId=bit-manipulation) : [L779_kthGrammar](L779_kthGrammar)
