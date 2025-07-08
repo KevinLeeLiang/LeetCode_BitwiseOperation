@@ -81,3 +81,7 @@ LeetCode位运算算法题的解题仓库
 [762. 二进制表示中质数个计算置位](https://leetcode.cn/problems/prime-number-of-set-bits-in-binary-representation/description/?envType=problem-list-v2&envId=bit-manipulation) : [L762_countPrimeSetBits](L762_countPrimeSetBits)
 
 [779. 第K个语法符号](https://leetcode.cn/problems/k-th-symbol-in-grammar/description/?envType=problem-list-v2&envId=bit-manipulation) : [L779_kthGrammar](L779_kthGrammar)
+
+[782. 变为棋盘](https://leetcode.cn/problems/transform-to-chessboard/description/?envType=problem-list-v2&envId=bit-manipulation) : [L782_movesToChessboard](L782_movesToChessboard)
+
+[784. 字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/description/?envType=problem-list-v2&envId=bit-manipulation) : [L784_letterCasePermutation](L784_letterCasePermutation)

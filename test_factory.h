@@ -56,6 +56,8 @@
 #include "L756_pyramidTransition/L756_pyramidTransition.h"
 #include "L762_countPrimeSetBits/L762_countPrimeSetBits.h"
 #include "L779_kthGrammar/L779_kthGrammar.h"
+#include "L782_movesToChessboard/L782_movesToChessboard.h"
+#include "L784_letterCasePermutation/L784_letterCasePermutation.h"
 
 using namespace std;
 class test_factory {
@@ -187,6 +189,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         } else if (title == "L779") {
             std::shared_ptr<L779_kthGrammar> tmp= std::make_shared<L779_kthGrammar>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L782") {
+            std::shared_ptr<L782_movesToChessboard> tmp= std::make_shared<L782_movesToChessboard>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L784") {
+            std::shared_ptr<L784_letterCasePermutation> tmp= std::make_shared<L784_letterCasePermutation>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         }
     }
