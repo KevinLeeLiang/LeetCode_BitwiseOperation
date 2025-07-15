@@ -85,3 +85,5 @@ LeetCode位运算算法题的解题仓库
 [782. 变为棋盘](https://leetcode.cn/problems/transform-to-chessboard/description/?envType=problem-list-v2&envId=bit-manipulation) : [L782_movesToChessboard](L782_movesToChessboard)
 
 [784. 字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation/description/?envType=problem-list-v2&envId=bit-manipulation) : [L784_letterCasePermutation](L784_letterCasePermutation)
+
+[805. 数组的均值分割](https://leetcode.cn/problems/split-array-with-same-average/description/?envType=problem-list-v2&envId=bit-manipulation) : [L805_splitArraySameAverage](L805_splitArraySameAverage)

@@ -58,6 +58,7 @@
 #include "L779_kthGrammar/L779_kthGrammar.h"
 #include "L782_movesToChessboard/L782_movesToChessboard.h"
 #include "L784_letterCasePermutation/L784_letterCasePermutation.h"
+#include "L805_splitArraySameAverage/L805_splitArraySameAverage.h"
 
 using namespace std;
 class test_factory {
@@ -195,6 +196,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         } else if (title == "L784") {
             std::shared_ptr<L784_letterCasePermutation> tmp= std::make_shared<L784_letterCasePermutation>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L805") {
+            std::shared_ptr<L805_splitArraySameAverage> tmp= std::make_shared<L805_splitArraySameAverage>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         }
     }
