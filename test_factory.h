@@ -59,6 +59,7 @@
 #include "L782_movesToChessboard/L782_movesToChessboard.h"
 #include "L784_letterCasePermutation/L784_letterCasePermutation.h"
 #include "L805_splitArraySameAverage/L805_splitArraySameAverage.h"
+#include "L810_xorGame/L810_xorGame.h"
 
 using namespace std;
 class test_factory {
@@ -199,6 +200,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         } else if (title == "L805") {
             std::shared_ptr<L805_splitArraySameAverage> tmp= std::make_shared<L805_splitArraySameAverage>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L810") {
+            std::shared_ptr<L810_xorGame> tmp= std::make_shared<L810_xorGame>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         }
     }
