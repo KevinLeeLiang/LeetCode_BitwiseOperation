@@ -89,3 +89,5 @@ LeetCode位运算算法题的解题仓库
 [805. 数组的均值分割](https://leetcode.cn/problems/split-array-with-same-average/description/?envType=problem-list-v2&envId=bit-manipulation) : [L805_splitArraySameAverage](L805_splitArraySameAverage)
 
 [810. 黑板异或游戏](https://leetcode.cn/problems/chalkboard-xor-game/description/?envType=problem-list-v2&envId=bit-manipulation) : [L810_xorGame](L810_xorGame)
+
+[832. 翻转图像](https://leetcode.cn/problems/flipping-an-image/description/?envType=problem-list-v2&envId=bit-manipulation) : [L832_flipAndInvertImage](L832_flipAndInvertImage)

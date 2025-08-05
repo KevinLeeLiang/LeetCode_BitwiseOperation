@@ -60,6 +60,7 @@
 #include "L784_letterCasePermutation/L784_letterCasePermutation.h"
 #include "L805_splitArraySameAverage/L805_splitArraySameAverage.h"
 #include "L810_xorGame/L810_xorGame.h"
+#include "L832_flipAndInvertImage/L832_flipAndInvertImage.h"
 
 using namespace std;
 class test_factory {
@@ -203,6 +204,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         } else if (title == "L810") {
             std::shared_ptr<L810_xorGame> tmp= std::make_shared<L810_xorGame>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
+        } else if (title == "L832") {
+            std::shared_ptr<L832_flipAndInvertImage> tmp= std::make_shared<L832_flipAndInvertImage>();
             solution_ = std::dynamic_pointer_cast<LeetcodeBitwiseOperation>(tmp);
         }
     }
